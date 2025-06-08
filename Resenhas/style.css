@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    background-color: lightgray;
+}
+header, p, footer, h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+img{
+    border-radius: 5%;
+    box-shadow: 10px 10px 30px 10px black;
+    height: 600px;
+    margin-top: 80px;
+}
+article, footer{
+    display: flex;
+    justify-content: space-around;
+}
+article p{
+    text-align: justify;
+    width: 840px;
+    font-size: larger;
+    border-radius: 1%;
+}
+
+#estrelas{
+    color: gold; 
+    font-size: 80px; 
+    text-align: center; 
+    background: none;
+    height: 5px;
+}
